@@ -8,4 +8,5 @@ import { Component } from '@angular/core';
 export class CardComponent {
   name:string = "BULBASSAUR"
   typePokemon:string[] = ['Fire', 'Rock', 'Force']
+
 }
