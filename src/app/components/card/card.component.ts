@@ -15,7 +15,12 @@ export class CardComponent {
 
   }
   ngOnInit():void {
-    this.service.getPokemon("Pikachu")
+    this.service.getPokemon("Pikachu").subscribe(
+      {
+      next: (res) => console.log(res),
+      
+      }
+    )
   }
 
 }
